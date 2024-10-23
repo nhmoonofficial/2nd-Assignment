@@ -47,3 +47,14 @@ body{
   font-size: 74px;
   font-weight: bolder;
 } */
+
+.heading{
+  padding-top: 20%;
+  font-size: 74px;
+  font-weight: bolder;
+  line-height: 78px;
+}
+
+.in{
+  color: #8B47F6;
+}
