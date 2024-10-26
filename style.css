@@ -70,3 +70,19 @@ body{
 .footer a:hover {
   text-decoration: underline;
 }
+
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 200px;
+  gap: 20px;
+}
+.grid-item {
+  overflow: hidden;
+}
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
